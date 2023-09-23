@@ -22,7 +22,7 @@ This is a simple web-based music player inspired by Spotify. It allows you to pl
 1. Clone this repository to your local machine:
 
    ```bash
-    https://github.com/thevipultiwari/Spotify_Clone
+    git clonehttps://github.com/thevipultiwari/Spotify_Clone.git
 
 2.Open the index.html file in your web browser to launch the music player.
 
