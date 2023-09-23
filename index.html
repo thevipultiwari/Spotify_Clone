@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favorite Music is Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="logo.png" alt="Spotify"> Spotify </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container">
+       
+        <!-- Song List -->
+        <div class="songList">
+            <h1>Spotify - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <!-- Song Items -->
+                <div class="songItem" id="songItem0">
+                    <img src="covers/1.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Let Me Love You</span>
+                        <span class="duration">05:34</span>
+                        <span class="timestamp"><i id="0" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem1">
+                    <img src="covers/2.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Perfect</span>
+                        <span class="duration">04:23</span>
+                        <span class="timestamp"><i id="1" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem2">
+                    <img src="covers/3.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Treat You Better</span>
+                        <span class="duration">03:07</span>
+                        <span class="timestamp"><i id="2" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem3">
+                    <img src="covers/4.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Something Just Like This</span>
+                        <span class="duration">04:07</span>
+                        <span class="timestamp"><i id="3" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem4">
+                    <img src="covers/5.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Titanium</span>
+                        <span class="duration">04:06</span>
+                        <span class="timestamp"><i id="4" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem5">
+                    <img src="covers/6.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Waiting For Love</span>
+                        <span class="duration">03:50</span>
+                        <span class="timestamp"><i id="5" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem6">
+                    <img src="covers/7.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Paradise</span>
+                        <span class="duration">04:38</span>
+                        <span class="timestamp"><i id="6" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem7">
+                    <img src="covers/8.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Faded</span>
+                        <span class="duration">03:32</span>
+                        <span class="timestamp"><i id="7" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem8">
+                    <img src="covers/9.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">Not Afraid</span>
+                        <span class="duration">04:08</span>
+                        <span class="timestamp"><i id="8" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <div class="songItem" id="songItem9">
+                    <img src="covers/10.jpg" alt="Cover Image">
+                    <div class="songDetails">
+                        <span class="songName">In My Blood</span>
+                        <span class="duration">03:31</span>
+                        <span class="timestamp"><i id="9" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                </div>
+                
+                <!-- End of Song Items -->
+            </div>
+        </div>
+        <!-- Song Banner -->
+        <div class="songBanner"></div>
+    </div>
+    <!-- Bottom Player Controls -->
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Font Awesome Icons -->
+            <i class="fas fa-3x fa-solid fa-backward" id="next"></i>
+            <i class="far fa-3x fa-solid fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-solid fa-forward" id="previous"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif">
+            <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/994f5f887f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
