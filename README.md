@@ -19,7 +19,7 @@ This is a simple web-based music player inspired by Spotify. It allows you to pl
 
 ## How to Use
 
-1. Clone this repository to your local machine
+1.Clone this repository to your local machine
 
 2.Open the index.html file in your web browser to launch the music player.
 
