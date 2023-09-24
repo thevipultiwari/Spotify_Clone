@@ -18,8 +18,12 @@ This is a simple web-based music player inspired by Spotify. It allows you to pl
 - Google Fonts for custom fonts.
 
 ## How to Use
+1. Clone this repository to your local machine:
 
-1.Clone this repository to your local machine
+   ```bash
+
+git clone https://github.com/thevipultiwari/Spotify_Clone.git
+
 
 2.Open the index.html file in your web browser to launch the music player.
 
